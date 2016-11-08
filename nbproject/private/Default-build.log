@@ -1,0 +1,4 @@
+Scanning dependencies of target OpenCV
+[ 50%] Building CXX object CMakeFiles/OpenCV.dir/OpenCV.cpp.o
+[100%] Linking CXX executable OpenCV
+[100%] Built target OpenCV

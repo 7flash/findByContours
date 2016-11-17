@@ -43,14 +43,12 @@ void draw(int thresh1, int thresh2, int contourSizeMinFirst, int contourSizeMaxF
 {
     Mat src;
     Mat src2;
-    src = imread("part.jpg", CV_LOAD_IMAGE_COLOR);
-    src2 = imread("full.jpg", CV_LOAD_IMAGE_COLOR);
+    src = imread("c564828e5a0615bccbc5a11a12d8c837.jpg", CV_LOAD_IMAGE_GRAYSCALE);
+    src2 = imread("14bedc2f8e603338cb0c90fe68841114.jpg", CV_LOAD_IMAGE_GRAYSCALE);
     Mat gray;
     Mat gray2;
-    cvtColor(src, gray, CV_BGR2GRAY);
-    cvtColor(src2, gray2, CV_BGR2GRAY);
-    threshold(gray, gray, thresh1, 255,THRESH_BINARY);
-    threshold(gray2, gray2, thresh2, 255, THRESH_BINARY);
+    threshold(src, gray, thresh1, 255,THRESH_BINARY);
+    threshold(src2, gray2, thresh2, 255, THRESH_BINARY);
     vector<Vec4i> hierarchy;
     vector<Vec4i> hierarchy2;
     findContours( gray, contours, hierarchy, CV_RETR_LIST, CV_CHAIN_APPROX_NONE );
@@ -69,7 +67,7 @@ void draw(int thresh1, int thresh2, int contourSizeMinFirst, int contourSizeMaxF
     {
         if(contourArea(*it2) < contourSizeMinSecond || contourArea(*it2) > contourSizeMaxSecond) {
             it2 = contours2.erase(it2);
-        } 
+        }
         else
         {
             it2++;
@@ -128,7 +126,7 @@ void thresh1_callback(int, void*)
 
 void thresh2_callback(int, void*)
 {
-    draw(thresh1, thresh2, contourSizeMinFirst, contourSizeMaxFirst, contourSizeMinSecond, contourSizeMaxSecond);   
+    draw(thresh1, thresh2, contourSizeMinFirst, contourSizeMaxFirst, contourSizeMinSecond, contourSizeMaxSecond);
 }
 
 void contourSizeMinFirst_callback(int, void*)

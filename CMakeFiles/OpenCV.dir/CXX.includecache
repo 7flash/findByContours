@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/sevenflash/cpp/opencv2/OpenCV.cpp
+/Users/igor/node/findByContours/OpenCV.cpp
 opencv2/core/core.hpp
-/home/sevenflash/cpp/opencv2/opencv2/core/core.hpp
+/Users/igor/node/findByContours/opencv2/core/core.hpp
 opencv2/highgui/highgui.hpp
-/home/sevenflash/cpp/opencv2/opencv2/highgui/highgui.hpp
+/Users/igor/node/findByContours/opencv2/highgui/highgui.hpp
 opencv2/imgproc/imgproc.hpp
-/home/sevenflash/cpp/opencv2/opencv2/imgproc/imgproc.hpp
+/Users/igor/node/findByContours/opencv2/imgproc/imgproc.hpp
 iostream
-/home/sevenflash/cpp/opencv2/iostream
+/Users/igor/node/findByContours/iostream
 
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/core.hpp
+/usr/local/include/opencv2/core/core.hpp
 opencv2/core/types_c.h
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/opencv2/core/types_c.h
+/usr/local/include/opencv2/core/opencv2/core/types_c.h
 opencv2/core/version.hpp
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/opencv2/core/version.hpp
+/usr/local/include/opencv2/core/opencv2/core/version.hpp
 limits.h
 -
 algorithm
@@ -42,21 +42,21 @@ vector
 sstream
 -
 opencv2/core/operations.hpp
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/opencv2/core/operations.hpp
+/usr/local/include/opencv2/core/opencv2/core/operations.hpp
 opencv2/core/mat.hpp
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/opencv2/core/mat.hpp
+/usr/local/include/opencv2/core/opencv2/core/mat.hpp
 
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/core_c.h
+/usr/local/include/opencv2/core/core_c.h
 opencv2/core/types_c.h
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/opencv2/core/types_c.h
+/usr/local/include/opencv2/core/opencv2/core/types_c.h
 
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/mat.hpp
+/usr/local/include/opencv2/core/mat.hpp
 limits.h
 -
 string.h
 -
 
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/operations.hpp
+/usr/local/include/opencv2/core/operations.hpp
 string.h
 -
 limits.h
@@ -68,7 +68,7 @@ bits/atomicity.h
 limits
 -
 
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/types_c.h
+/usr/local/include/opencv2/core/types_c.h
 assert.h
 -
 stdlib.h
@@ -92,29 +92,29 @@ ipl.h
 ipl/ipl.h
 -
 tegra_round.hpp
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/tegra_round.hpp
+/usr/local/include/opencv2/core/tegra_round.hpp
 emmintrin.h
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/emmintrin.h
+/usr/local/include/opencv2/core/emmintrin.h
 
-/home/sevenflash/opencv-2.4.13/modules/core/include/opencv2/core/version.hpp
+/usr/local/include/opencv2/core/version.hpp
 
-/home/sevenflash/opencv-2.4.13/modules/highgui/include/opencv2/highgui/highgui.hpp
+/usr/local/include/opencv2/highgui/highgui.hpp
 opencv2/core/core.hpp
-/home/sevenflash/opencv-2.4.13/modules/highgui/include/opencv2/highgui/opencv2/core/core.hpp
+/usr/local/include/opencv2/highgui/opencv2/core/core.hpp
 opencv2/highgui/highgui_c.h
-/home/sevenflash/opencv-2.4.13/modules/highgui/include/opencv2/highgui/opencv2/highgui/highgui_c.h
+/usr/local/include/opencv2/highgui/opencv2/highgui/highgui_c.h
 
-/home/sevenflash/opencv-2.4.13/modules/highgui/include/opencv2/highgui/highgui_c.h
+/usr/local/include/opencv2/highgui/highgui_c.h
 opencv2/core/core_c.h
-/home/sevenflash/opencv-2.4.13/modules/highgui/include/opencv2/highgui/opencv2/core/core_c.h
+/usr/local/include/opencv2/highgui/opencv2/core/core_c.h
 
-/home/sevenflash/opencv-2.4.13/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+/usr/local/include/opencv2/imgproc/imgproc.hpp
 opencv2/core/core.hpp
-/home/sevenflash/opencv-2.4.13/modules/imgproc/include/opencv2/imgproc/opencv2/core/core.hpp
+/usr/local/include/opencv2/imgproc/opencv2/core/core.hpp
 opencv2/imgproc/types_c.h
-/home/sevenflash/opencv-2.4.13/modules/imgproc/include/opencv2/imgproc/opencv2/imgproc/types_c.h
+/usr/local/include/opencv2/imgproc/opencv2/imgproc/types_c.h
 
-/home/sevenflash/opencv-2.4.13/modules/imgproc/include/opencv2/imgproc/types_c.h
+/usr/local/include/opencv2/imgproc/types_c.h
 opencv2/core/core_c.h
-/home/sevenflash/opencv-2.4.13/modules/imgproc/include/opencv2/imgproc/opencv2/core/core_c.h
+/usr/local/include/opencv2/imgproc/opencv2/core/core_c.h
 
